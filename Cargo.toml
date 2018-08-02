@@ -23,6 +23,7 @@ doctest = true
 doc = true
 
 [dependencies]
+<<<<<<< HEAD
 chrono = "0.4.2"
 data-encoding = "2.1.1"
 lazy_static = "1.0.0"
@@ -32,6 +33,17 @@ serde = "1.0"
 serde_derive = "1.0"
 serde_json = { version = "1.0", features = ["preserve_order"] }
 untrusted = "0.6.1"
+=======
+chrono = "0.4"
+data-encoding = "1"
+lazy_static = "1"
+num = "0.1.37"
+ring = { git = "https://github.com/briansmith/ring", features = ["rsa_signing"] }
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = { version = "1.0", features = ["preserve_order"] }
+untrusted = "0.6"
+>>>>>>> 98fa8e3a5d4803aa58f5be71f5b5a107bea62f38
 url = "^1.0"
 
 [dev-dependencies]
